@@ -1,0 +1,17 @@
+@import "../theme-light";
+@import "./theme-variant01";
+
+$header-bg: red;
+$header-color: white;
+$body-bg: yellow;
+
+$color-mode-type: data;
+
+header {
+    background-color: $header-bg;
+    color: $header-color;
+}
+
+main {
+    background-color: $body-bg;
+}

@@ -1,0 +1,17 @@
+@import "../theme-dark";
+@import "./theme-variant01";
+
+$header-bg: green;
+$header-color: blue;
+$body-bg: grey;
+
+$color-mode-type: data;
+
+header {
+    background-color: $header-bg;
+    color: $header-color;
+}
+
+main {
+    background-color: $body-bg;
+}

@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+$app-background: blue;
+
+[data-bs-theme="variant01-light"] {
+    @import "./variant01/theme-variant01-light";
+}
+
+[data-bs-theme="variant01-dark"] {
+    @import "./variant01/theme-variant01-dark";
+}
